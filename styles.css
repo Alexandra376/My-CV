@@ -1,0 +1,291 @@
+.body {
+  font-family: roboto, sans-serif;
+  color: HSLA(213, 14%, 37%, 1);
+  background: HSLA(0, 0%, 96%, 1);
+  font-size: 14px;
+  padding: 30px;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  max-width: 1000px;
+  margin: 0 auto;
+  position: relative;
+  -webkit-box-shadow: 0 2px 4px HSLA(0, 0%, 0%, 0.1);
+  -moz-box-shadow: 0 2px 4px HSLA(0, 0%, 0%, 0.1);
+  box-shadow: 0 2px 4px HSLA(0, 0%, 0%, 0.1);
+}
+
+.sidebar-wrapper {
+  grid-column: span 3;
+  order: 2;
+  background: HSLA(172, 58%, 39%, 1);
+  color: HSLA(0, 0%, 100%, 1);
+}
+
+.sidebar-wrapper .profile-container {
+  padding: 28px;
+  background: HSLA(172, 115%, 28%, 0.92);
+  text-align: center;
+  color: HSLA(0, 0%, 100%, 1);
+}
+
+.sidebar-wrapper .avatar {
+  max-width: 100px;
+  margin-bottom: 15px;
+  border: 0 solid HSLA(0, 0%, 100%, 1);
+  border-radius: 100%;
+  box-shadow: 0 1px 1px HSLA(0, 0%, 0%, 0.1);
+}
+
+img {
+  vertical-align: middle;
+}
+
+.sidebar-wrapper .name {
+  font-size: 32px;
+  font-weight: 900;
+  margin-bottom: 10px;
+}
+
+.sidebar-wrapper .tagline {
+  color: HSLA(0, 0%, 100%, 0.6);
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.sidebar-wrapper .container-block {
+  padding: 30px;
+}
+
+.list-unstyled {
+  padding-left: 0;
+  list-style: none;
+}
+
+.sidebar-wrapper .contact-list li {
+  margin-bottom: 15px;
+}
+
+.sidebar-wrapper .container-block {
+  padding: 30px;
+}
+
+.sidebar-wrapper .container-block-title {
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+.sidebar-wrapper .education-container .item {
+  margin-bottom: 15px;
+}
+
+.sidebar-wrapper .degree {
+  font-size: 14px;
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+.sidebar-wrapper .education-container .meta {
+  color: HSLA(0, 0%, 100%, 0.6);
+  font-weight: 500;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.sidebar-wrapper .education-container .time {
+  color: HSLA(0, 0%, 100%, 0.6);
+  font-weight: 500;
+  margin-bottom: 0;
+}
+
+.sidebar-wrapper .education-container .item:last-child {
+  margin-bottom: 0;
+}
+
+.sidebar-wrapper .container-block {
+  padding: 30px;
+}
+
+.sidebar-wrapper .container-block-title {
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+.sidebar-wrapper .interests-list li {
+  margin-bottom: 10px;
+}
+
+.sidebar-wrapper .interests-list li:last-child {
+  margin-bottom: 0;
+}
+
+.sidebar-wrapper .languages-container .lang-desc {
+  color: HSLA(0, 0%, 100%, 0.6);
+  ;
+}
+
+.sidebar-wrapper .container-block {
+  padding: 30px;
+}
+
+.sidebar-wrapper .container-block-title {
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+.sidebar-wrapper .interests-list {
+  margin-bottom: 0;
+}
+
+.sidebar-wrapper .container-block {
+  padding: 30px;
+}
+
+.main-wrapper {
+  grid-column: span 7;
+  order: 1;
+  background: hsl(0, 0%, 100%);
+  padding: 60px;
+}
+
+.main-wrapper .section {
+  margin-bottom: 60px;
+}
+
+.main-wrapper .section-title {
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 500;
+  position: relative;
+  margin-top: 0;
+  margin-bottom: 20px;
+  color: hsla(173, 98%, 24%, 0.922);
+}
+
+.sidebar-wrapper a {
+  color: hsl(0, 0%, 100%);
+  text-decoration: none;
+}
+
+.main-wrapper .section {
+  margin-bottom: 60px;
+}
+
+.sidebar-wrapper .degree {
+  font-size: 14px;
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+.sidebar-wrapper .education-container .university {
+  color: HSLA(0, 0%, 100%, 0.6);
+  ;
+  font-weight: 500;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.sidebar-wrapper .education-container .time {
+  color: HSLA(0, 0%, 100%, 0.6);
+  ;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+
+.main-wrapper .section {
+  margin-bottom: 60px px;
+}
+
+.skillset .item {
+  margin-bottom: 15px;
+  overflow: hidden;
+}
+
+.sidebar-wrapper .lang {
+  padding: 0px;
+  padding-top: 40px;
+}
+
+.sidebar-wrapper .interests {
+  padding: 0px;
+  padding-top: 30px;
+}
+
+.skillset .level-bar-inner {
+  height: 12px;
+  background: hsla(173, 61%, 39%, 0.92);
+}
+
+.level-bar {
+  background-color: hsla(120, 9%, 30%, 0.09);
+}
+
+.skillset .level-title {
+  margin-bottom: 10px;
+}
+
+.section-project-photo {
+  margin-top: 25px;
+}
+
+section {
+  margin-top: 60px;
+}
+
+.phone {
+  font-weight: bolder;
+}
+
+a {
+  text-decoration: none;
+  color: HSLA(0, 0%, 0%, 1);
+}
+
+.link {
+  margin-top: 10px;
+  color: HSLA(0, 0%, 0%, 1);
+}
+
+.link__two {
+  margin-top: 10px;
+}
+
+.link__three {
+  margin-top: 10px;
+}
+
+.link__four {
+  margin-top: 10px;
+}
+
+@media (min-width: 992px) {
+  .skillset .level-title {
+    display: inline-block;
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 767px) {
+  .wrapper {
+    display: block;
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+
+  }
+}
