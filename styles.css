@@ -206,7 +206,11 @@ img {
 }
 
 .main-wrapper .section {
-  margin-bottom: 60px px;
+  margin-bottom: 60px;
+}
+
+.item {
+  margin-bottom: 20px;
 }
 
 .skillset .item {
